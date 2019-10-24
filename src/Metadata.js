@@ -2,7 +2,7 @@
  * Metadata
  */
 
-const metadataPrefix = ''; // Lowercase due to aws requirements
+const metadataPrefix = 'x-amz-meta-'; // Lowercase due to aws requirements
 
 export class Metadata {
   static generate(options) {
